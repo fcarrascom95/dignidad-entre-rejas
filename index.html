@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dignidad Entre Rejas</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script defer src="./assets/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Dignidad Entre Rejas</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#actividades">Actividades</a></li>
+                <li><a href="#reinsercion">Reinserción Social</a></li>
+                <li><a href="#como-ayudar">Cómo Ayudar</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="section">
+        <h2>Bienvenidos</h2>
+        <p>Información sobre la ONG y su misión.</p>
+    </section>
+    
+    <section id="quienes-somos" class="section">
+        <h2>Quiénes Somos</h2>
+        <p>Historia, equipo y objetivos.</p>
+    </section>
+    
+    <section id="actividades" class="section">
+        <h2>Actividades</h2>
+        <p>Eventos y noticias recientes.</p>
+    </section>
+    
+    <section id="reinsercion" class="section">
+        <h2>Reinserción Social</h2>
+        <p>Información y testimonios.</p>
+    </section>
+    
+    <section id="como-ayudar" class="section">
+        <h2>Cómo Ayudar</h2>
+        <button onclick="donar()">Donar</button>
+        <button onclick="voluntariado()">Ser Voluntario</button>
+    </section>
+    
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Dignidad Entre Rejas</p>
+    </footer>
+</body>
+</html>
